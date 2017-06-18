@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="overlays.FormProfileSettings">
+  <grid id="27dc6" binding="rootPanelProfile" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="816" height="436"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b050a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Open Sans Light" size="48"/>
+          <foreground color="-16600090"/>
+          <text value="Настройки профиля"/>
+        </properties>
+      </component>
+      <component id="c3db6" class="javax.swing.JTextField" binding="textFieldNameSettings">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Open Sans Light" size="36"/>
+          <foreground color="-1"/>
+          <maximumSize width="200" height="58"/>
+          <minimumSize width="200" height="58"/>
+          <opaque value="false"/>
+          <preferredSize width="200" height="58"/>
+        </properties>
+      </component>
+      <component id="95e31" class="javax.swing.JTextField" binding="textFieldSurnameSettings">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="0" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Open Sans Light" size="36"/>
+          <foreground color="-1"/>
+          <maximumSize width="200" height="58"/>
+          <minimumSize width="200" height="58"/>
+          <opaque value="false"/>
+          <preferredSize width="200" height="58"/>
+        </properties>
+      </component>
+      <component id="5869e" class="javax.swing.JButton" binding="buttonProfileSettings" custom-create="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="337" height="65"/>
+          <minimumSize width="337" height="65"/>
+          <preferredSize width="337" height="65"/>
+          <text value="Сохранить"/>
+        </properties>
+      </component>
+      <component id="4e0ad" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1f766" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="0" height="0"/>
+          <minimumSize width="0" height="0"/>
+          <preferredSize width="0" height="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="afdae" class="javax.swing.JButton" binding="buttonBack" custom-create="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="28" height="28"/>
+          <minimumSize width="28" height="28"/>
+          <opaque value="false"/>
+          <preferredSize width="28" height="28"/>
+          <text value="Назад"/>
+        </properties>
+      </component>
+      <component id="6bf07" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="30" height="120"/>
+          <minimumSize width="30" height="120"/>
+          <preferredSize width="30" height="120"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="telegram-dao-proxy">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/telegram-dao-proxy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

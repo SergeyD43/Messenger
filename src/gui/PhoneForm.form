@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.PhoneForm">
+  <grid id="27dc6" binding="rootPanelPhone" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="689" height="749"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.1"/>
+      <alignmentY value="0.1"/>
+      <autoscrolls value="false"/>
+      <background color="-1513240"/>
+      <opaque value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="15834" class="javax.swing.JButton" binding="ButtonPhone">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="0" bottom="100" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16600090"/>
+          <font name="Open Sans Light" size="22"/>
+          <foreground color="-1"/>
+          <maximumSize width="320" height="55"/>
+          <minimumSize width="320" height="55"/>
+          <preferredSize width="320" height="55"/>
+          <text value="ПРОДОЛЖИТЬ"/>
+        </properties>
+      </component>
+      <grid id="5b4d5" binding="panelJavagram" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="10" bottom="50" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="170" height="170"/>
+          <minimumSize width="170" height="170"/>
+          <opaque value="false"/>
+          <preferredSize width="170" height="170"/>
+        </properties>
+        <border type="none">
+          <font/>
+          <title-color color="-16777216"/>
+        </border>
+        <children/>
+      </grid>
+      <grid id="3524c" binding="PanelFieldPhone" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="390" height="44"/>
+          <minimumSize width="390" height="44"/>
+          <opaque value="false"/>
+          <preferredSize width="390" height="44"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="b8eaf" binding="panelPhone" custom-create="true" layout-manager="BorderLayout" hgap="10" vgap="0">
+            <constraints/>
+            <properties>
+              <maximumSize width="24" height="38"/>
+              <minimumSize width="24" height="38"/>
+              <opaque value="false"/>
+              <preferredSize width="24" height="38"/>
+              <requestFocusEnabled value="false"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="d8327" class="javax.swing.JFormattedTextField" binding="formattedTextFieldPhone" custom-create="true">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <caretColor color="-1"/>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <focusCycleRoot value="false"/>
+              <focusLostBehavior value="1"/>
+              <focusTraversalPolicyProvider value="true"/>
+              <font name="Courier New" size="30"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="10"/>
+              <inheritsPopupMenu value="true"/>
+              <maximumSize width="300" height="40"/>
+              <minimumSize width="300" height="40"/>
+              <opaque value="false"/>
+              <preferredSize width="300" height="40"/>
+              <requestFocusEnabled value="true"/>
+              <selectionColor color="-514"/>
+              <verifyInputWhenFocusTarget value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="dafb2" class="javax.swing.JTextPane" binding="TextPane">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="0" left="0" bottom="30" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Open Sans" size="16"/>
+          <foreground color="-1"/>
+          <opaque value="false"/>
+          <text value="Введите код страны и номер&#10;вашего мобильного телефона"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
